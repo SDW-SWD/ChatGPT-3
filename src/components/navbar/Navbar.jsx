@@ -3,8 +3,10 @@ import './navbar.css';
 
 const Navbar = () => {
   return (
-    <div>
-        Navbar
+    <div className= "gpt3_navbar">
+        <div className="gpt3__navbar-links">
+
+        </div>
     </div>
   )
 }
