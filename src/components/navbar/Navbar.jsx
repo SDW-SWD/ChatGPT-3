@@ -3,24 +3,26 @@ import './navbar.css';
 import {RiMenu3Line,RiCloseLine} from 'react-icons/ri';
 import logo from '../../assets/logo.svg'
 
+const Menu =()=>(
+    <>
+        <p><a href="#home">Home</a></p>
+        <p><a href="#wgpt3">What is a GTP3?</a></p>
+        <p><a href="#possibility">Open AI</a></p>
+        <p><a href="#fetures">Case Study</a></p>
+        <p><a href="#block">Library</a></p>
+    </>
+)
+
 const Navbar = () => {
 
     const [toggleMenu , setToggleMenu] = useState(false);
-    const Menu =()=>(
-        <>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is a GTP3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
-            <p><a href="#fetures">Case Study</a></p>
-            <p><a href="#block">Library</a></p>
-        </>
-    )
+
 
   return (
     <div className= "gpt3__navbar">
         <div className="gpt3__navbar-links">
             <div className="gpt3__navbar-links_logo">
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo"/>l
             </div>
             <div className="gpt3__navbar-links_container">
               <Menu />
