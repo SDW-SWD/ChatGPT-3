@@ -51,9 +51,8 @@
     flex: 0.6;
     width: 100%;
     min-height: 50px;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0 0 5px;
     background: #FF4820;
-    transform: matrix(-1,0,0,1,0,0);
     color: #FFF;
     font-family: var(--font-family);
     font-size: 20px;
@@ -61,6 +60,6 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    padding: 0 1rem;
     border: none;
+    padding: 0 1rem;
 }
