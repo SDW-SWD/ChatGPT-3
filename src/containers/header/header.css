@@ -59,4 +59,8 @@
     font-size: 20px;
     line-height: 27px;
     font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
 }
